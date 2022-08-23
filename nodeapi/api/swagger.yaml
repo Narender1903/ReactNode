@@ -1,0 +1,107 @@
+---
+swagger: "2.0"
+info:
+  version: "1.0"
+  title: "Amazon Product listing microservices "
+paths:
+  /categories:
+    get:
+      operationId: "categoriesGET"
+      produces:
+      - "application/json"
+      - "applicatoin/xml"
+      parameters:
+      - name: "purpose"
+        in: "query"
+        description: "Indicate the purpose"
+        required: false
+        type: "string"
+        default: "searchbox"
+      responses:
+        "200":
+          description: "Successfully responded all the active level-1 categories"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/category"
+      x-swagger-router-controller: "Default"
+  /products:
+    get:
+      operationId: "productsGET"
+      produces:
+      - "application/json"
+      - "applicatoin/xml"
+      parameters:
+      - name: "categoryId"
+        in: "query"
+        description: "The categoryId for which products has to be returned"
+        required: false
+        type: "integer"
+      - name: "keyword"
+        in: "query"
+        description: "The search keryword for which products has to be returned when\
+          \ matched with title, name, tags or description"
+        required: false
+        type: "string"
+      - name: "pagesize"
+        in: "query"
+        description: "No of products will be shown based on pagesize"
+        required: false
+        type: "integer"
+        default: 10
+      - name: "startpage"
+        in: "query"
+        description: "The current page will be shown based on startpage"
+        required: false
+        type: "integer"
+        default: 1
+      responses:
+        "200":
+          description: "Successfully responded all the active products"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/product"
+        "400":
+          description: "input paramter categoryId is missing"
+      x-swagger-router-controller: "Default"
+definitions:
+  category:
+    type: "object"
+    properties:
+      id:
+        type: "integer"
+      name:
+        type: "string"
+    example:
+      name: "name"
+      id: 0
+  product:
+    type: "object"
+    properties:
+      id:
+        type: "integer"
+      name:
+        type: "string"
+      description:
+        type: "string"
+      price:
+        type: "number"
+      discount:
+        type: "number"
+      rating:
+        type: "number"
+      tages:
+        type: "array"
+        items:
+          type: "string"
+    example:
+      price: 6.02745618307040320615897144307382404804229736328125
+      name: "name"
+      rating: 5.962133916683182377482808078639209270477294921875
+      tages:
+      - "tages"
+      - "tages"
+      description: "description"
+      discount: 1.46581298050294517310021547018550336360931396484375
+      id: 0

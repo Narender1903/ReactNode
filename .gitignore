@@ -1,0 +1,7 @@
+#ignore
+nodeapi/node_modules/
+*/node_modules/
+ui/node_modules/
+ui/celsior-grid/
+ui/react-data-grid/
+ui/react-pwr/

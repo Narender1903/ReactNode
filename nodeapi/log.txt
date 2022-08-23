@@ -1,0 +1,34 @@
+Error: BROKEN
+    at D:\Projects\ReactandNode\nodeapi\index.js:6:9
+    at Layer.handle [as handle_request] (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\layer.js:95:5)
+Thu Apr 28 2022Error: BROKEN
+    at D:\Projects\ReactandNode\nodeapi\index.js:6:9
+    at Layer.handle [as handle_request] (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\layer.js:95:5)
+Thu Apr 28 2022  15:54:33 GMT+0530 (India Standard Time) Error: BROKEN
+    at D:\Projects\ReactandNode\nodeapi\index.js:6:9
+    at Layer.handle [as handle_request] (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\Projects\ReactandNode\nodeapi\node_modules\express\lib\router\layer.js:95:5)
+Thu Apr 28 2022  15:55:00 GMT+0530 (India Standard Time) BROKEN
